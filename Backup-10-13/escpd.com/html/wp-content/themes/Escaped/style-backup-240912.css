@@ -1,0 +1,294 @@
+/*
+Theme Name: Escaped
+Theme URI: http://escdp.com
+Description: Escaped mag theme full of AWESOMENESS (built on Starkers)
+Version: 1.0
+Author: Michael Allan & Phil Bartholomew
+Author URI: http://escpd.com
+Tags: escaped, mag, sports, extreme
+*/
+
+@import "http://escpd.com/wp-content/themes/Escaped/css/reset.css";
+@import "http://escpd.com/wp-content/themes/Escaped/css/typography.css";
+@import "http://escpd.com/wp-content/themes/Escaped/css/layout.css";
+
+body { background: url(http://escpd.com/wp-content/themes/Escaped/images/header_bkg.png) repeat-x top; font-family: 'ChaparralProRegular', Gerorgia, Times, serif; background-color: #f4f4f4 !important; font-size: 100%;  }
+.clear {clear: both; margin: 0; padding: 0}
+
+h1,h2,h3,h4,h5,h6 {font-weight:100; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em;}
+
+a { text-decoration: none; color: #c10032;}
+
+iframe { margin: -15px 0 0 -15px; }
+
+/* HEADER */
+#site { width: 966px; margin: 0 auto; }
+#mainHeader  { height: 215px; color: #fff; position: relative; font-size: .8em;background: url(http://escpd.com/wp-content/themes/Escaped/images/deco-header-shadow.png) bottom no-repeat; }
+#mainHeader .logo {width: 419px; height: 134px; position: absolute; top:43px; left:0; } /* escaped logo */
+#mainHeader h1 { width: 458px; position: absolute; top:108px; right:0;} /* strapline */
+
+/* MAIN MENU */
+.menu {font-weight:100; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em;}
+.menu-header ul {  border-bottom: 1px solid #000; margin: 1px 0 0 0; padding: 0; clear: both; height: 67px; font-weight:100; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+.menu-header ul li { display: inline; margin: 0; padding: 0}
+
+.menu-header ul li:nth-child(1) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_air_up.png) no-repeat 9px 8px; }
+.menu-header ul li:nth-child(2) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_dirt_up.png) no-repeat 9px 8px; }
+.menu-header ul li:nth-child(3) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_rock_up.png) no-repeat 9px 8px; }
+.menu-header ul li:nth-child(4) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_snow_up.png) no-repeat 9px 8px; }
+.menu-header ul li:nth-child(5) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_urban_up.png) no-repeat 9px 8px; }
+.menu-header ul li:nth-child(6) a { background: #fff url(http://escpd.com/wp-content/themes/Escaped/images/icon_water_up.png) no-repeat 9px 8px; }
+
+.menu-header ul li a { 
+	color: #000; 
+	float: left; 
+	text-decoration: none; 
+	margin:  0 0 0 1px;  
+	font-size: 1.8em; 
+	padding: 16px 45px 15px 61px;
+	border: none; 
+	-webkit-transition: all .3s ease-in !important;
+	-moz-transition: all .3s ease-in !important;
+	-ms-transition: all .3s ease-in !important;
+	-o-transition: all .3s ease-in !important;
+	transition: all .3s ease-in !important;
+}
+
+.menu-header ul li:first-child a { margin: 0!important;}
+.menu-header ul li:nth-child(1) a:hover, .menu-header ul li:nth-child(1).current-menu-item a{ background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_air_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+.menu-header ul li:nth-child(2) a:hover, .menu-header ul li:nth-child(2).current-menu-item a { background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_dirt_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+.menu-header ul li:nth-child(3) a:hover, .menu-header ul li:nth-child(3).current-menu-item a { background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_rock_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+.menu-header ul li:nth-child(4) a:hover, .menu-header ul li:nth-child(4).current-menu-item a { background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_snow_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+.menu-header ul li:nth-child(5) a:hover, .menu-header ul li:nth-child(5).current-menu-item a { background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_urban_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+.menu-header ul li:nth-child(6) a:hover, .menu-header ul li:nth-child(6).current-menu-item a { background: #e6003c url(http://escpd.com/wp-content/themes/Escaped/images/icon_water_hover.png) no-repeat 9px 8px; color: #fff; text-shadow: 0px -1px 0px #c10032; filter: dropshadow(color=#c10032, offx=0, offy=-1);}
+
+#nav li.current_page_item a {YOUR DECLARATIONS}
+
+/* SUB MENU */
+.menu-filter ul {  margin: 0; padding: 0; clear: both; height: 52px; }
+.menu-filter ul li { display: inline; }
+.menu-filter ul li a { color: #8f8f8f; float: left; text-decoration: none; text-transform: uppercase; margin: 0; font-size: 1em; padding: 15px 30px 19px 0;border: none; letter-spacing: .08em; }
+.menu-filter ul li a:hover {  color: #000; }
+
+#subMenu ul {  margin: 0; padding: 0; clear: both; height: 52px; border-bottom: 1px solid #999; }
+#subMenu ul li { display: inline; }
+#subMenu ul li a{  color: #8f8f8f; float: left; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-decoration: none; text-transform: uppercase; margin: 0; font-size: 1em; padding: 15px 30px 19px 0;border: none; letter-spacing: .08em; } 
+#subMenu ul li a:hover {  color: #000; }
+
+#tag_archive_heading {padding: 15px 0}
+
+/* CONTENT WRAPPER */
+#contentWrapper {position: relative; height: 100%;  margin-top: 15px; }
+#contentWrapperCategory {position: relative; height: 100%; }
+
+/* POST */
+#postArea { width: 722px; float: left; padding: 0; margin-top: 15px;}
+#postAreaCategory { width: 722px; float: left; padding: 0; margin-top: 15px;}
+#postAreaTag { width: 722px; float: left; padding: 0;}
+
+#single-postArea{  width: 966px; padding: 0; margin-top: 15px;} 
+
+#feature-post { 
+	margin: 0 !important;
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 3px #888;
+	-webkit-box-shadow: 0px 0px 3px #888;
+	box-shadow: 0px 0px 3px #888; 
+	padding: 15px;
+  }
+
+.post, .post-home-feature, .single-post  { 
+	background-color: #fff;
+	margin: 15px 0 0 0; 		
+	-moz-box-shadow: 0px 0px 3px #888;
+	-webkit-box-shadow: 0px 0px 3px #888;
+	box-shadow: 0px 0px 3px #888; 
+	padding: 15px;
+
+	}
+
+.post-home-feature { width: 935px; margin-top: -31px; }	
+.single-post { width: 935px; margin-top: 15px; 	}	
+	
+	
+.post h2, #feature-post h2, .single-post h1, #about-page h1 { color: #000; font-size:2em;  letter-spacing: .06em; margin: 12px 0 0 0; }
+.post h2 a, #feature-post h2 a, .single-post h1 a { color: #000; text-decoration: none; text-transform: uppercase; }
+.post h2 a:hover, #feature-post h2 a:hover, .single-post h1 a:hover { color: #e6003c; }
+.post p, #feature-post p, .single-post p, #about-page p { color: #333; font-size: 1.2em; line-height: 1.6em; margin-bottom: 15px;  }
+.post img { max-width: 722px;height: 444px;}
+.post img, #feature-post img { margin: -15px 0 0 -15px; }
+.post .feature-img, .feature-post .feature-img { width:100%;  }
+.feature-tag {
+	background: url(http://escpd.com/wp-content/themes/Escaped/images/feature-img.png) no-repeat;
+	position: absolute;
+	height: 121px;
+	width: 213px;
+	top:25px;
+	left: -80px;
+	}
+
+.single-post img {max-width: 965px; margin: -15px 0 0 -15px; }	
+	
+	
+	
+/* .post:nth-child(1) .feature-img { max-width: 966px; } */
+.post:first-child { margin: 0; }
+.post:first-child .post-feature { }
+
+.tags, .tags-home-feature { width: 690px; border-top: 1px solid #d9d9d9; padding-top: 15px; margin: 32px 0 0 0; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; letter-spacing: .08em; text-align: center; position: relative;}
+.tags a, .tags-home-feature a {color: #959595; font-size: .9em; text-decoration: none;  padding: 10px; font-family: 'ChaparralProRegular', Gerorgia, Times, serif;  }
+.tags a:hover, .tags-home-feature a:hover {color: #e6003c; }
+.tags p, .tags-home-feature p {color: #e6003c; font-size: 1.1em; text-decoration: none; display: inline}
+.tags img, .tags-home-feature img {position: relative; top: 8px}
+.tags .tagsTitle {width: 100px; height: 22px; background-color: #fff; position: absolute; left: 295px; top: -11px; color: #e6003c; font-size: 1.1em;}
+.tags .star1 {width: 22px; height: 22px; background: url(http://escpd.com/wp-content/themes/Escaped/images/star.png) no-repeat; position: absolute; left: 305px; top: -12px; }
+.tags .star2 {width: 22px; height: 22px; background: url(http://escpd.com/wp-content/themes/Escaped/images/star.png) no-repeat; position: absolute; left: 362px; top: -12px; }
+
+.tags-home-feature .star1 {width: 22px; height: 22px; background: url(http://escpd.com/wp-content/themes/Escaped/images/star.png) no-repeat; position: absolute; left: 433px; top: -12px; }
+.tags-home-feature .star2 {width: 22px; height: 22px; background: url(http://escpd.com/wp-content/themes/Escaped/images/star.png) no-repeat; position: absolute; left: 502px; top: -12px; }
+
+.tags-home-feature { width: 100%; }
+.tags-home-feature .tagsTitle {width: 100px; height: 22px; background-color: #fff; position: absolute; left: 427px; top: -11px; color: #e6003c; font-size: 1.1em;}
+
+
+.post-purchase, .post-source { 
+	background: #e6003c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6003c 0%, #bf0838 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6003c), color-stop(100%,#bf0838)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6003c 0%,#bf0838 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6003c 0%,#bf0838 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6003c 0%,#bf0838 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6003c 0%,#bf0838 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6003c', endColorstr='#bf0838',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 22px;
+	color: #fff;	
+	text-decoration: none;
+	font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; 
+	text-transform: uppercase; 
+	letter-spacing: .08em;
+	margin: 12px 0 0 0;	
+}
+
+.social { margin:10px 0 0 0; float: right; width: 186px; }
+.social iframe { margin: 0; padding: 0; }
+
+.fb-like { float: left;}
+.twitter-share-button {float: left;}
+
+
+
+.postAreaCategory { width: 722px; float: left; }
+.postAreaCategory .post { padding: 0 0 20px 0; }
+
+.more-posts { 
+	background: url(http://escpd.com/wp-content/themes/Escaped/images/pagination-arrow-left.png) no-repeat left; 
+	margin: 73px 0 0 0;	
+	font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; 
+	font-size: 1.8em;
+	text-transform: uppercase; 
+	letter-spacing: .06em; 
+	color: #000;
+	text-decoration: none;
+	width: 300px;
+	height: 71px;
+	float:left;
+	padding: 35px 0 0 80px;
+
+	}
+	
+.newer-posts { 
+	background: url(http://escpd.com/wp-content/themes/Escaped/images/pagination-arrow-right.png) no-repeat right; 
+	margin: 73px 0 0 0;	
+	font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; 
+	font-size: 1.8em;
+	text-transform: uppercase; 
+	letter-spacing: .06em; 
+	color: #000;
+	text-decoration: none;
+	height: 71px;
+	width: 200px;
+	float: right;
+	padding: 35px 80px 0 0;
+	text-align: right;
+	}	
+
+.more-posts:hover, .newer-posts:hover { color: #e6003c; }
+	
+.post-views { 	
+	width: 57px; 
+	height: 51px;
+	background: url(http://escpd.com/wp-content/themes/Escaped/images/deco-views.png) no-repeat;
+	position: relative;
+	left: -72px;
+	top: 46px;
+	padding: 0px 0 0 7px;
+	margin: -51px 0 0 0;
+	 }	
+.post-views p { color: #fff; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; 
+	font-size: 1.5em;
+	text-transform: uppercase; 
+	letter-spacing: .06em; 
+	text-align: center;
+	}
+
+
+/* SIDEBAR */
+#sideBar {
+	height: 100px;
+	width: 230px;
+	float: right;
+	margin-top: 14px;
+}
+#sideBarSingle {width: 230px; float: right; margin-top: 15px;}
+#sideBarTag {width: 230px; float: right; }
+
+/* SEARCH */
+
+.xoxo li#search-2 { 
+	/* position: absolute;
+	top:-275px;
+	right: 0px;
+	width:309px; */
+	display:none;	}
+	
+#searchform {font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em; color: #999; }
+#searchform input{ 
+	height: 28px; 
+	border: 1px solid #ddd;  
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 10px;	
+	}
+	
+/* ADVERTS...HOPEFULLY */
+
+li#text-2 {
+	height: 230px;
+	background: #ccc;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+	
+.widget-title {
+	padding-top: 100px
+	}
+/* ABOUT */
+
+#about-page h2 { font-size:1.5em; }
+#about-page p { width: 60%; }
+#about-page img { margin: 12px 0 0 0; }
+
+
+
+/* FOOTER */
+#footer { border-top: 2px solid #000; width: 100%; margin-top: 25px; padding: 12px 0 0 0; overflow: hidden; }
+#footer #copy { text-align: right; font-size: .7em; text-transform: uppercase; }
+#footer #copy a{ color: #000; text-decoration: none; margin-left: 12px; }
+#footer #copy a:hover{ background-color:#e6003c; color: #fff; } 
+#footer #footerLogo { float: left;}
+#footer #btn_top {font-weight:100; font-family: 'LeagueGothicRegular',"Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em; font-size: 1.3em; background:  url(http://escpd.com/wp-content/themes/Escaped/images/btn_top.png) no-repeat; height: 54px; width: 91px; color: #fff; text-align: center; padding: 14px 0px 30px; margin: 50px 0 0 0; position: relative; top: 45px; float: right; text-decoration: none; }
+#footer #btn_top:hover{ color: #000; }
