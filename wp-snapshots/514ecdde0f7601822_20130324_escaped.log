@@ -1,0 +1,69 @@
+******************************************************************************** 
+PACKAGE-LOG: 09:56:46 
+NOTICE: Do not post to public sites or forums 
+******************************************************************************** 
+duplicator: 0.4.3 
+wordpress: 3.5 
+php: 5.3.15 
+php sapi: cgi-fcgi 
+server: Apache/2.2.22 
+browser: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22 
+package name: 20130324_escaped 
+php_max_time: from=120 to=5000 
+php_max_memory: Unabled to set php memory_limit 
+mysql wait_timeout:5000 
+******************************************************************************** 
+SQL SCRIPT 
+******************************************************************************** 
+wp_ak_twitter (43) 
+wp_commentmeta (0) 
+wp_comments (6) 
+wp_duplicator (0) 
+wp_links (7) 
+wp_options (328) 
+wp_popularpostsdata (148) 
+wp_popularpostsdatacache (904) 
+wp_postmeta (1751) 
+wp_posts (1967) 
+wp_term_relationships (782) 
+wp_term_taxonomy (372) 
+wp_terms (364) 
+wp_usermeta (29) 
+wp_users (1) 
+SQL CREATED: /nfs/c08/h02/mnt/118418/domains/escpd.com/html/wp-snapshots/514ecdde0f7601822_20130324_escaped_database.sql 
+SQL TOTAL RUNTIME: 0.8236 sec. 
+******************************************************************************** 
+ZIP ARCHIVE: 
+******************************************************************************** 
+ARCHIVE FOLDER: /nfs/c08/h02/mnt/118418/domains/escpd.com/html 
+ARCHIVE FILE:   /nfs/c08/h02/mnt/118418/domains/escpd.com/html/wp-snapshots/514ecdde0f7601822_20130324_escaped_package.zip 
+FILTER EXTENSIONS:  '' 
+FILTER DIRECTORIES: '' 
+---------------------------------------- 
+ZIPARCHIVE OPENED 
+DATABASE.SQL ADDED TO ZIP: /nfs/c08/h02/mnt/118418/domains/escpd.com/html/wp-snapshots/514ecdde0f7601822_20130324_escaped_database.sql 
+ARCHIVE INFO: ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3028
+    [filename] => 
+    [comment] => 
+)
+ 
+CLOSE RETURNED: '1' 
+ZIP TOTAL RUNTIME: 23.7256 sec. 
+ZIP FILE SIZE: 63.01MB 
+RECORDED ARCHIVE ID: 1 
+******************************************************************************** 
+FINALIZATION ROUTINES: 
+******************************************************************************** 
+BUILDING INSTALLER FILE 
+INSTALLER FILE BUILT 
+MAKING INSTALLER FILE 
+INSTALLER MADE: /nfs/c08/h02/mnt/118418/domains/escpd.com/html/wp-snapshots/514ecdde0f7601822_20130324_escaped_installer.php 
+INSTALLER FILE COMPLETED 
+COMPLETE PACKAGE RUNTIME: 24.6526 sec. 
+******************************************************************************** 
+DONE PROCESSING => 20130324_escaped 09:57:10 
+******************************************************************************** 
