@@ -74,8 +74,8 @@
 	<div class="pagination">
 		<div class="btn-container">
 			<?php if (  $wp_query->max_num_pages > 1 ) : ?>
-				<?php next_posts_link( __( '<div class="older-posts">&#139; Older ESCPD Gear</div>', 'twentyten' ) ); ?>
-				<?php previous_posts_link( __( '<div class="newer-posts">Newer ESCPD Gear  &#155;</div>', 'twentyten' ) ); ?>
+				<?php next_posts_link( __( '<div class="older-posts"><b>&#139;</b> Older Gear</div>', 'twentyten' ) ); ?>
+				<?php previous_posts_link( __( '<div class="newer-posts">Newer Gear  <b>&#155;</b></div>', 'twentyten' ) ); ?>
 			<?php endif; ?>
 		</div>
 	</div><!-- End Pagination -->
